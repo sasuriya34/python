@@ -15,7 +15,7 @@ class Application(tk.Frame):
         self.elapsedTime=0.0
         self.playTime=False
 
-        self.canvas = tk.Canvas(master,width=290,height=80,bg="skyblue")
+        self.canvas = tk.Canvas(master,width=290,height=80,bg="white")
         self.canvas.place(x=3,y=10)
 
         tk.Button(master,text="リセット",command=self.resetButtonClick,width=10).place(x=10, y=110)
