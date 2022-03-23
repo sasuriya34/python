@@ -28,7 +28,7 @@ class Application(tk.Frame):
     
     # 時刻の表示
     def update(self):
-        #self.canvas.delete("Time")
+        self.canvas.delete("all")
         self.buff.set(time.strftime('%I:%M:%S'))
         print(self.buff.get())
         self.canvas.create_text(100,40,text=self.buff.get())
