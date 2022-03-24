@@ -13,7 +13,7 @@ class Application(tk.Frame):
         master.config(bg="white")
 
         self.canvas = tk.Canvas(master,width=290,height=80,bg="skyblue")
-        self.option_add('*font', ('FixedSys', 14))
+        self.option_add('*font', ('FixedSys', 50))
         self.canvas.place(x=3,y=10)
         self.canvas.create_line(50, 50, 50, 50,dash=(1,1))
 
